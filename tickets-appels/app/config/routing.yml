@@ -1,0 +1,3 @@
+tickets:
+    resource: "@TicketsBundle/Resources/config/routing.yml"
+    prefix:   /

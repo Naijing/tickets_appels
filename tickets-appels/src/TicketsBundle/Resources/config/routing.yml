@@ -1,0 +1,27 @@
+tickets_homepage:
+    path:     /
+    defaults: { _controller: TicketsBundle:Default:index }
+
+add:
+    path:     /add
+    defaults: { _controller: TicketsBundle:Tickets:add }
+
+query:
+    path:     /query
+    defaults: { _controller: TicketsBundle:Tickets:query }
+
+query2:
+    path:     /query2
+    defaults: { _controller: TicketsBundle:Tickets:query2 }
+
+query3:
+    path:     /query3
+    defaults: { _controller: TicketsBundle:Tickets:query3 }
+
+show:
+    path:     /show
+    defaults: { _controller: TicketsBundle:Tickets:show }
+
+show2:
+    path:     /show2/{id}
+    defaults: { _controller: TicketsBundle:Tickets:show2 }
